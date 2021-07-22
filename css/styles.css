@@ -145,11 +145,11 @@ img {
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--gray);
 }
 .header-mail:hover,
 .header-mail:focus {
-  color: var(--gray);
+  color: var(--blue);
 }
 .header-tel {
   font-family: Roboto;
@@ -160,7 +160,7 @@ img {
   letter-spacing: 0.02em;
   color: #757575;
 }
-.header-mail:hover,
+.header-tel:hover,
 .header-tel:focus {
   color: var(--blue);
 }
@@ -171,7 +171,7 @@ img {
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 16px;
+  font-size: 44px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.06em;
@@ -205,7 +205,7 @@ img {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -217,7 +217,7 @@ img {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
   letter-spacing: 0.03em;
@@ -250,7 +250,7 @@ img {
   text-decoration: none;
   color: var(--black);
 }
-.names {
+.team-name {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -362,15 +362,15 @@ img {
   color: var(--white);
   background: var(--blue);
 }
-​ .port-item {
+​.port-item {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.06em;
-  color: #212121;
 }
+
 .project-description {
   font-family: Roboto;
   font-style: normal;
